@@ -13,7 +13,7 @@ const {database} = require ('../config/helper');
 router.get('/', function (req, res, next) {
 
     let page = (req.query.page != undefined && req.query.page != 0 ) ? req.query.page : 1; //Seteo el numero de pagina
-    const limit = (req.query.limit != undefined && req.query.limit != 0 ) ? req.query.limit : 10; //Seteo el limite de productos por pagina
+    const limit = (req.query.limit != undefined && req.query.limit != 0 ) ? req.query.limit : 20; //Seteo el limite de productos por pagina
 
 let startValue;
 let endValue;
@@ -24,7 +24,7 @@ if (page > 0){
     endValue = page * limit;
 } else {
     startValue = 0;
-    endValue = 10;
+    endValue = 20;
 }
 
 database.table('producto as p')

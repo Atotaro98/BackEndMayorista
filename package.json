@@ -13,5 +13,9 @@
     "morgan": "~1.9.1",
     "nodemon": "^2.0.4",
     "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "mysqli": "^3.0.11"
   }
 }

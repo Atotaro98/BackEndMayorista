@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7d372c2-326b-4913-bec8-1c7e06bae472" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/acorn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/acorn.cmd" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/acorn.ps1" afterDir="false" />
@@ -5615,14 +5606,7 @@
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/lib/usage.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/lib/validation.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/error.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/layout.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -5660,8 +5644,16 @@
       <option name="presentableId" value="Default" />
       <updated>1599127744821</updated>
       <workItem from="1599127746213" duration="659000" />
-      <workItem from="1599128414574" duration="1005000" />
+      <workItem from="1599128414574" duration="2497000" />
     </task>
+    <task id="LOCAL-00001" summary="Inicio Commit">
+      <created>1599129432688</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599129432688</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -5691,6 +5683,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="722" y="175" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599128980796" />
+    <state x="605" y="195" key="Vcs.Push.Dialog.v2" timestamp="1599130124809">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="605" y="195" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599130124809" />
     <state x="1061" y="270" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1599129080872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

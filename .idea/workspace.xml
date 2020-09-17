@@ -5606,7 +5606,11 @@
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/lib/usage.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/lib/validation.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/pedidos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -5616,11 +5620,20 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gzqPLrGDcQ03kAPv3g9IyJKXWi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -5630,10 +5643,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.55" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alejo\PhpstormProjects\ProyectoEcommerce\backend" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -5645,6 +5664,13 @@
       <updated>1599127744821</updated>
       <workItem from="1599127746213" duration="659000" />
       <workItem from="1599128414574" duration="2497000" />
+      <workItem from="1599770675956" duration="820000" />
+      <workItem from="1599784214757" duration="702000" />
+      <workItem from="1599803608542" duration="1060000" />
+      <workItem from="1599805235893" duration="1963000" />
+      <workItem from="1599864499331" duration="4660000" />
+      <workItem from="1600045503404" duration="956000" />
+      <workItem from="1600134127657" duration="859000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio Commit">
       <created>1599129432688</created>
@@ -5675,10 +5701,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="978" y="139" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599129418857" />
-    <state x="914" y="277" key="FileChooserDialogImpl" timestamp="1599128227285">
+    <state x="914" y="277" key="FileChooserDialogImpl" timestamp="1600041854959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="914" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599128227285" />
+    <state x="914" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600041854959" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600041072781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600041072781" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600041072781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600041072781" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600041072781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600041072781" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600041072781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600041072781" />
     <state x="722" y="175" key="SettingsEditor" timestamp="1599128980796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

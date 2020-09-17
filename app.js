@@ -12,20 +12,35 @@ const app = express();
 
 const productosRouter = require('./routes/productos');
 const usuariosRouter = require('./routes/usuarios');
+const pedidosRouter = require('./routes/pedidos');
 
 //Uso Rutas
 
 app.use('/api/productos', productosRouter)
 app.use('/api/usuarios', usuariosRouter)
+app.use('/api/pedidos', pedidosRouter)
 
-
-app.use(cors( {
+app.use(cors({
     origin: "*",
     methods: ['GET', 'POST', 'PATH', 'DELETE', 'PUT'],
     allowedHeaders: 'Content-Type, Authorization, Origin, X-Requested-With, Accept',
 
 }));
 
+
+/** HEADER INICIO */
+app.use(function (req, res, next) {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET,POST,DELETE,PUT');
+    next();
+});
+app.options("/*", function (req, res, next) {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS');
+    res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, Content-Length, X-Requested-With,x-access-token');
+    res.send(200);
+});
+/** HEADER FIN */
 
 
 // view engine setup
